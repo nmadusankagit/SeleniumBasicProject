@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Main Test Suite" duration-ms="56204" started-at="2021-05-02T05:52:34Z" finished-at="2021-05-02T05:53:30Z">
+    <groups>
+    </groups>
+    <test name="TestNG Test Group" duration-ms="56204" started-at="2021-05-02T05:52:34Z" finished-at="2021-05-02T05:53:30Z">
+      <class name="test.java.TestExecutable.TestngMain">
+        <test-method status="PASS" signature="setupTest()[pri:0, instance:test.java.TestExecutable.TestngMain@1593948d]" name="setupTest" is-config="true" duration-ms="5111" started-at="2021-05-02T05:52:34Z" finished-at="2021-05-02T05:52:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method status="PASS" signature="setupClass()[pri:0, instance:test.java.TestExecutable.TestngMain@1593948d]" name="setupClass" is-config="true" duration-ms="0" started-at="2021-05-02T05:52:39Z" finished-at="2021-05-02T05:52:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupClass -->
+        <test-method status="PASS" signature="test(java.lang.String)[pri:0, instance:test.java.TestExecutable.TestngMain@1593948d]" name="test" duration-ms="44816" started-at="2021-05-02T05:52:39Z" data-provider="data-provider" finished-at="2021-05-02T05:53:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Scenario01]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="test(java.lang.String)[pri:0, instance:test.java.TestExecutable.TestngMain@1593948d]" name="test" duration-ms="5468" started-at="2021-05-02T05:53:24Z" data-provider="data-provider" finished-at="2021-05-02T05:53:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Scenario02]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:test.java.TestExecutable.TestngMain@1593948d]" name="teardown" is-config="true" duration-ms="769" started-at="2021-05-02T05:53:30Z" finished-at="2021-05-02T05:53:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- test.java.TestExecutable.TestngMain -->
+    </test> <!-- TestNG Test Group -->
+  </suite> <!-- Main Test Suite -->
+</testng-results>
